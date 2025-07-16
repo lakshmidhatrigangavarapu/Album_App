@@ -1,0 +1,64 @@
+2025-07-16 15:15:24,109 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Starting SpringRestdemoApplication using Java 17.0.14 with PID 47155 (/Users/lakshmidhatrigangavarapu/Desktop/Spring_Album_App/backend/target/classes started by lakshmidhatrigangavarapu in /Users/lakshmidhatrigangavarapu/Desktop/Spring_Album_App)
+2025-07-16 15:15:24,110 [DEBUG] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2025-07-16 15:15:24,111 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-07-16 15:15:24,651 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 15:15:24,679 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+2025-07-16 15:15:24,941 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2025-07-16 15:15:24,946 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2025-07-16 15:15:24,946 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2025-07-16 15:15:24,983 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2025-07-16 15:15:24,984 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 839 ms
+2025-07-16 15:15:25,026 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2025-07-16 15:15:25,130 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ADMIN
+2025-07-16 15:15:25,131 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-07-16 15:15:25,136 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
+2025-07-16 15:15:25,208 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 15:15:25,228 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2025-07-16 15:15:25,295 [WARN] org.hibernate.orm.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-07-16 15:15:25,345 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-07-16 15:15:25,703 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-16 15:15:25,706 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 15:15:26,483 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-16 15:15:26,958 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-07-16 15:15:26,988 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c8d20bb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ead6e20, org.springframework.security.web.context.SecurityContextHolderFilter@5aff8207, org.springframework.security.web.header.HeaderWriterFilter@7308d133, org.springframework.security.web.authentication.logout.LogoutFilter@1d2aa638, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@240c626d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@278df226, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5edd2170, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59f56892, org.springframework.security.web.session.SessionManagementFilter@79392584, org.springframework.security.web.access.ExceptionTranslationFilter@2286dfcd, org.springframework.security.web.access.intercept.AuthorizationFilter@571b4bf6]
+2025-07-16 15:15:27,150 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-07-16 15:15:27,166 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Started SpringRestdemoApplication in 3.233 seconds (process running for 3.523)
+2025-07-16 15:15:27,543 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 15:15:27,543 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-07-16 15:15:27,544 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2025-07-16 15:22:19,357 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 15:22:19,357 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-07-16 15:22:19,570 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-07-16 15:22:19,593 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-07-16 15:25:35,760 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Starting SpringRestdemoApplication using Java 17.0.14 with PID 49861 (/Users/lakshmidhatrigangavarapu/Desktop/Spring_Album_App/backend/target/classes started by lakshmidhatrigangavarapu in /Users/lakshmidhatrigangavarapu/Desktop/Spring_Album_App)
+2025-07-16 15:25:35,761 [DEBUG] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2025-07-16 15:25:35,761 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-07-16 15:25:36,259 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-16 15:25:36,292 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2025-07-16 15:25:36,536 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2025-07-16 15:25:36,541 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2025-07-16 15:25:36,541 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2025-07-16 15:25:36,581 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2025-07-16 15:25:36,581 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 788 ms
+2025-07-16 15:25:36,625 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2025-07-16 15:25:36,730 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ADMIN
+2025-07-16 15:25:36,731 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-07-16 15:25:36,736 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
+2025-07-16 15:25:36,809 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-16 15:25:36,829 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2025-07-16 15:25:36,891 [WARN] org.hibernate.orm.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-07-16 15:25:36,956 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-07-16 15:25:37,308 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-16 15:25:37,311 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 15:25:37,791 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-16 15:25:38,265 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-07-16 15:25:38,296 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1fa8a4f7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54c1878b, org.springframework.security.web.context.SecurityContextHolderFilter@327ac23, org.springframework.security.web.header.HeaderWriterFilter@5a110e7d, org.springframework.security.web.authentication.logout.LogoutFilter@7a553110, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@285b63eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b61a4b0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a486afb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27f6e2c3, org.springframework.security.web.session.SessionManagementFilter@28a33dc9, org.springframework.security.web.access.ExceptionTranslationFilter@67915454, org.springframework.security.web.access.intercept.AuthorizationFilter@4f96e484]
+2025-07-16 15:25:38,459 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2025-07-16 15:25:38,469 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Started SpringRestdemoApplication in 2.886 seconds (process running for 3.114)
+2025-07-16 15:25:38,980 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 15:25:38,980 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2025-07-16 15:25:38,981 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2025-07-16 15:40:57,084 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-16 15:40:57,087 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-07-16 15:40:57,289 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-07-16 15:40:57,300 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
